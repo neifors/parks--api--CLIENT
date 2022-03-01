@@ -1,0 +1,135 @@
+/* --------------------------index.html-------------------------*/
+
+
+body.index {
+   background-image: url(https://www.fodors.com/wp-content/uploads/2019/11/10_BestParksandGardensinLondon__GreenwichPark_shutterstock_720127579.jpg);
+   background-size: cover;
+}
+
+header.index {
+   text-align: center;
+}
+
+h1.index {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 40px;
+}
+
+.box {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.box .option {
+   width: 255px;
+   height: 160px;
+   margin: 50px;
+   background-color: rgb(183, 206, 236);
+   border-radius: 25px;
+   border: 1px solid black;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow: 20px 20px 50px 10px rgb(133, 166, 209) inset;;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 28px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.box button a {
+   text-decoration: none;
+   color: black;
+   display: block;
+   padding: 60px;
+}
+
+.box button a:visited {
+   text-decoration: none;
+   color: black;
+}
+
+.box .hoverButtom {
+   box-shadow: 20px 20px 50px 10px rgb(215, 253, 218) inset;
+   
+}
+
+
+
+/* --------------------------findAll.html-------------------------*/
+
+body.findAll {
+   text-align: center;
+   margin: 0px;
+}
+
+h1.findAll {
+   font-family: fantasy;
+   font-weight: lighter;
+   font-size: 60px;
+   background-image:url(https://www.seekpng.com/png/full/233-2335316_vector-transparent-download-cartoon-transparent-park-playground-cartoon.png);
+   margin: 0px;
+   padding: 40px;
+   text-shadow: 3px 3px 5px whitesmoke;
+}
+
+table {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+   text-align: start;
+   padding: 10px;
+}
+
+td, th {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+ 
+tr:nth-child(even){background-color: #f2f2f2;}
+ 
+th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: #04AA6D;
+   color: white;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+ 
+li.home {
+   float: left;
+}
+
+li.search {
+   float: right;
+   display: block;
+   padding: 14px 30px;;
+}
+ 
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 30px;
+   text-decoration: none;
+}
+
+li.hide {
+   display: none;
+}
+
+
+/* ------------------findByCity.html-------------------- */
+
+.hide {
+   display: none;
+}
